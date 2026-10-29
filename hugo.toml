@@ -1,10 +1,10 @@
-baseURL = 'https://YOUR-USERNAME.github.io/'
+baseURL = 'https://warmatea.github.io/'
 locale = 'zh-cn'
 title = '我的 Robocon 记录'
 theme = 'PaperMod'
 
 [params]
-  author = '你的名字'
+  author = 'WarmATea'
   description = '记录 Robocon 比赛期间的感悟、教程与踩坑，留给后来的队友。'
   keywords = ['Robocon', '机器人', '机械', '电控', '视觉']
   mainSections = ['posts']
