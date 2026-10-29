@@ -1,0 +1,35 @@
+baseURL = 'https://YOUR-USERNAME.github.io/'
+locale = 'zh-cn'
+title = '我的 Robocon 记录'
+theme = 'PaperMod'
+
+[params]
+  author = '你的名字'
+  description = '记录 Robocon 比赛期间的感悟、教程与踩坑，留给后来的队友。'
+  keywords = ['Robocon', '机器人', '机械', '电控', '视觉']
+  mainSections = ['posts']
+
+  [params.homeInfoParams]
+    Title = 'Robocon 记录'
+    Content = '记录打 Robocon 比赛期间的感悟、教程和踩坑，留给后来的队友。'
+
+  # 文章显示选项
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 20
