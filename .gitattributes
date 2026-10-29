@@ -1,0 +1,2 @@
+# 让 .sh 脚本保持 LF 换行，避免 Windows 下 CRLF 导致 bash 运行报错
+*.sh text eol=lf
