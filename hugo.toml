@@ -7,7 +7,7 @@ theme = 'PaperMod'
   author = 'WarmATea'
   description = '记录 Robocon 比赛期间的感悟、教程与踩坑，留给后来的队友。'
   keywords = ['Robocon', '机器人', '机械', '电控', '视觉']
-  mainSections = ['posts']
+  mainSections = ['daily', 'tech', 'memo']
 
   [params.homeInfoParams]
     Title = 'Robocon 记录'
@@ -24,12 +24,27 @@ theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
+    identifier = 'daily'
+    name = '日常'
+    url = '/daily/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tech'
+    name = '技术'
+    url = '/tech/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'memo'
+    name = '备忘录'
+    url = '/memo/'
+    weight = 30
+  [[menu.main]]
     identifier = 'archives'
     name = '归档'
     url = '/archives/'
-    weight = 10
+    weight = 40
   [[menu.main]]
     identifier = 'tags'
     name = '标签'
     url = '/tags/'
-    weight = 20
+    weight = 50
